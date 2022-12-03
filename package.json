@@ -7,7 +7,9 @@
     "data-driven-login": "npx cypress run --spec cypress\\e2e\\test\\data.driven.login.cy.js --headed",
     "filters-test": "npx cypress run --spec cypress\\e2e\\test\\test.filters.cy.js --headed",
     "remove-item": "npx cypress run --spec cypress\\e2e\\test\\remove.item.cy.js --headed",
-    "checkout-single": "npx cypress run --spec cypress\\e2e\\test\\checkout.single.item.cy.js --headed"
+    "checkout-single": "npx cypress run --spec cypress\\e2e\\test\\checkout.single.item.cy.js --headed",
+    "checkout-multiple": "npx cypress run --spec cypress\\e2e\\test\\checkout.multiple.item.cy.js --headed",
+    "unhappy-paths": "npx cypress run --spec cypress\\e2e\\test\\unhappy.paths.cy.js --headed"
   },
   "keywords": [],
   "author": "",
