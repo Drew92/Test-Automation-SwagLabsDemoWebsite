@@ -1,0 +1,19 @@
+{
+  "name": "andrew_gayle_cypressassignment",
+  "version": "1.0.0",
+  "description": "",
+  "main": "index.js",
+  "scripts": {
+    "data-driven-login": "npx cypress run --spec cypress\\e2e\\test\\data.driven.login.cy.js --headed",
+    "filters-test": "npx cypress run --spec cypress\\e2e\\test\\test.filters.cy.js --headed",
+    "remove-item": "npx cypress run --spec cypress\\e2e\\test\\remove.item.cy.js --headed",
+    "checkout-single": "npx cypress run --spec cypress\\e2e\\test\\checkout.single.item.cy.js --headed"
+  },
+  "keywords": [],
+  "author": "",
+  "license": "ISC",
+  "devDependencies": {
+    "@faker-js/faker": "^7.6.0",
+    "cypress": "^11.2.0"
+  }
+}
