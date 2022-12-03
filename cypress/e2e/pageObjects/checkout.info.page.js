@@ -22,6 +22,10 @@ import Page from "./page";
         return (`#continue`);
     }
 
+    get h3ErrorMessage(){
+        return (`h3[data-test='error']`);
+    }
+
    
 
     /**
@@ -32,6 +36,18 @@ import Page from "./page";
         cy.get(this.inputFirstName).type(fname);
         cy.get(this.inputLastName).type(lname);
         cy.get(this.inputPostalCode).type(zipcode);
+        cy.get(this.btnContinue).click();
+    }
+
+    completeCheckoutFormWithoutLastName(fname,zipcode){
+        cy.get(this.inputFirstName).type(fname);
+        cy.get(this.inputPostalCode).type(zipcode);
+        cy.get(this.btnContinue).click();
+    }
+
+    completeCheckoutFormWithoutZipCode(fname,lname){
+        cy.get(this.inputFirstName).type(fname);
+        cy.get(this.inputLastName).type(lname);
         cy.get(this.btnContinue).click();
     }
     

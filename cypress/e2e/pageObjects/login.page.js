@@ -18,6 +18,10 @@ import Page from "./page";
         return (`#login-button`);
     }
 
+    get h3ErrorMessage(){
+        return (`h3[data-test='error']`);
+    }
+
 /**
      * methods to encapsule automation code to interact with the login page
      */
