@@ -20,7 +20,7 @@ The project also contains some Negative Tests and uses the `NPM Faker` package.
 ## Instructions
 - Navigate to the project's root directory in your Terminal.
 - Enter the command `npm install` to initialize the project.
-- Enter the one of the given commands to run the respective test.
+- Enter one of the given commands to run the respective test.
 
 ### Commands
 - To execute the "data-driven login" test: `npm run data-driven-login`
