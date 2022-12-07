@@ -30,4 +30,6 @@ The project also contains some Negative Tests and uses the `NPM Faker` package.
 - To execute the "remove item from cart and product list" test: `npm run remove-item`
 - To execute the "negative" tests: `npm run unhappy-paths`
 
+NB. Each command has the `--headed` option to display the tests executing in the browser.
+
 

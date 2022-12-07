@@ -10,7 +10,8 @@ module.exports = class Page {
     }
 
     open () {
-        return cy.visit(`https://www.saucedemo.com/`);
+        cy.clearCookies(); //clears session cookies in browser before going the website
+        return cy.visit(`/`);
     }
 
 }
