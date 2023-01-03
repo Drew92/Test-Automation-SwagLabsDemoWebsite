@@ -1,5 +1,5 @@
 
-# Andrew Gayle - **SWAG**LABS Website Test Automation
+# **SWAG**LABS Website Test Automation
 
 ### Website URL: https://www.saucedemo.com/
 
